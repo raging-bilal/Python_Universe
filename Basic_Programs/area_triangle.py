@@ -1,3 +1,5 @@
+# This is to find the area of any triangle 
+
 a=float(input("Enter the length of first side: "))
 
 b=float(input("Enter the length of second side: "))
