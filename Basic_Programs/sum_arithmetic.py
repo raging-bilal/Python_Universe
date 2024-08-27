@@ -1,6 +1,6 @@
-num1=input("Enter the number: ")
+num1=input("Enter the first number: ")
 
-num2=input("Enter the another number: ")
+num2=input("Enter the second number: ")
 
 sum=float(num1) + float(num2)
 
