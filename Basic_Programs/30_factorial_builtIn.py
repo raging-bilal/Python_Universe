@@ -1,9 +1,14 @@
-# Python  program to find  
-# factorial of given number  
-import math  
-def fact(n):  
-    return(math.factorial(n))  
-  
-num = int(input("Enter the number:"))  
-f = fact(num)  
-print("Factorial of", num, "is", f)
+import math as m
+
+def fact(n):
+    if n>=0:
+        f=m.factorial(n)
+        print(f)
+
+    else:
+        print("ERROR: INVALID INPUT!")
+
+
+n=int(input("Enter the number to find the factorial using builtin functions: "))
+
+fact(n)
