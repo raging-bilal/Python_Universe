@@ -1,7 +1,21 @@
-# Python 3 program to find  
-# factorial of given number  
-def fact(n):  
-    return 1 if (n == 1 or n == 0) else n * fact(n - 1)
+def fact(n):
 
-num = 5
-print("Factorial of", num, "is", fact(num))
+    if(n>=0):
+        if n==0 or n==1:
+
+            return 1
+    
+        else:
+            return n*fact(n-1)
+        
+    else:
+        print(n, " is a negative number. It is an invalid Input!")
+
+    
+    
+        
+    
+n=int(input("Enter the number to find the factorial: "))
+f=fact(n)
+print(f)
+            
