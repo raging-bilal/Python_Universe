@@ -1,21 +1,15 @@
-#Initialize array     
-arr1 = [1, 2, 3, 4, 5];     
-     
-#Create another array arr2 with size of arr1    
-arr2 = [None] * len(arr1);    
-     
-#Copying all elements of one array into another    
-for i in range(0, len(arr1)):    
-    arr2[i] = arr1[i];     
-     
-#Displaying elements of array arr1     
-print("Elements of original array: ");    
-for i in range(0, len(arr1)):    
-   print(arr1[i]),    
-     
-print();    
-     
-#Displaying elements of array arr2     
-print("Elements of new array: ");    
-for i in range(0, len(arr2)):    
-   print(arr2[i]), 
+a1=[1,2,334,56,78]
+a2=[None]*len(a1)
+
+for i in range(0,len(a1)):
+    a2[i]=a1[i]
+
+print("The elements of array 1 are as followS: ")
+for i in range(0,len(a1)):
+    print(a1[i])
+
+print("The elements of array 1 are as followS: ")
+for i in range(0,len(a2)): 
+    print(a2[i])
+
+
