@@ -1,8 +1,11 @@
-#Initialize array     
+#Initialize array  
+
 arr = [1, 2, 3, 4, 5];     
 #n determine the number of times an array should be rotated    
 n = 3;    
-     
+
+
+
 #Displays original array    
 print("Original array: ");    
 for i in range(0, len(arr)):    
