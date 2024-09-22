@@ -2,6 +2,9 @@
 Dictionary = {}  
 print("An empty Dictionary: ")  
 print(Dictionary)  
+
+
+
    
 # Creating a Dictionary using in-built dict() method  
 Dictionary = dict({1: 'Python', 2: 'Javatpoint', 3:'Dictionary'})  
