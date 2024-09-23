@@ -6,6 +6,8 @@ for i in range(0,len(a)):
     
 print()
 
+
+
 print("Printing the smallest array element! ")
 
 
